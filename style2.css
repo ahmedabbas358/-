@@ -1,0 +1,65 @@
+body{
+background-color: #020617;
+color:white;
+font-family:        'Iner','segoe UI',sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+margin: 0;
+
+
+}
+.registration-container{
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: rgba(15,23,42,0.8);
+    border-radius: 16px;
+    border: 1px soild rgba(59,130,246,0.2);
+    box-shadow: 0 20px   50px                       rgba(0,0,0,0.3);
+
+}
+h1{
+    
+    
+    
+    color: #f8fafc;
+}
+
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #94a3b8;
+    padding-right: 5px;
+}
+
+.custom-input {
+    background-color: #1e293b; 
+    border: 1.5px solid #334155; 
+    border-radius: 10px; 5
+    padding: 12px 15px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+
+.custom-input:focus {
+    border-color: #3b82f6; 
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.3);
+    background-color: #0f172a;
+}
+
+
+.btn-submit {
+    width: 100%;
+    margin-top: 10px;
